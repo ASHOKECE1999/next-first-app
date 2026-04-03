@@ -7,3 +7,4 @@
   -routes should be with name page.tsx
 - created /about /profile
 - created /blog/first /blog/second routes
+- create dynamic routes blog/1 blog/2.. blog/x
