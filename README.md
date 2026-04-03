@@ -5,3 +5,5 @@
   -impleted file base routing
   -all routs should be in app folder
   -routes should be with name page.tsx
+- created /about /profile
+- created /blog/first /blog/second routes
