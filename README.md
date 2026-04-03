@@ -2,3 +2,6 @@
   -- npx create-next-app@latest for creating an next App
   -- npm run dev : for running application
 - first Commit
+  -impleted file base routing
+  -all routs should be in app folder
+  -routes should be with name page.tsx
