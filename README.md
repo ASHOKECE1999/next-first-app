@@ -1,3 +1,4 @@
 - created a brand new nextJs App for learning
   -- npx create-next-app@latest for creating an next App
   -- npm run dev : for running application
+- first Commit
