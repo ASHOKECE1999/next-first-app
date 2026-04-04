@@ -31,7 +31,7 @@ export default function RootLayout({
         <header className="min-h-20 flex items-center justify-center bg-amber-600">
           Header
         </header>
-        <div className="min-h-3/4 flex-3 flex justify-start pt-10 pl-3 bg-amber-200 flex-col">
+        <div className="min-h-3/4 flex-3 flex justify-start pt-10 pl-3 bg-white flex-col font-bold text-green-500">
           {children}
         </div>
         <footer className="min-h-20 flex items-center justify-center bg-black text-2xl text-white">
