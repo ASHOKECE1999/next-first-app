@@ -1,5 +1,6 @@
 import { title } from "process";
 import React from "react";
+import Link from "next/link";
 
 export const metadata = {
   title: {
@@ -8,7 +9,12 @@ export const metadata = {
 };
 
 const ProfilePage = () => {
-  return <div>ProfilePage!!!!!!!!</div>;
+  return (
+    <div>
+      ProfilePage!!!!!!!!
+      <Link href="/blog">Go to Blog</Link>
+    </div>
+  );
 };
 
 export default ProfilePage;
