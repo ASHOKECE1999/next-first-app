@@ -1,11 +1,11 @@
+"use client";
+
 import React from "react";
 
-const MyBlog = async () => {
-  await new Promise((resolve) => {
-    setTimeout(() => {
-      resolve("Blog data loaded");
-    }, 4000);
-  });
+const MyBlog = () => {
+  console.log("Refreshed");
+  throw new Error("Error loading blog data");
+
   return <div>MyBlog!!!!!!!!!</div>;
 };
 
