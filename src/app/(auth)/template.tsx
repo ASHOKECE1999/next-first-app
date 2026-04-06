@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -37,10 +38,18 @@ export default function RootLayout({
 }>) {
   const pathname = usePathname();
   console.log("Current Pathname:", pathname);
+  const [userInput, setUserInput] = React.useState("");
 
   return (
     <div>
       <div>
+        <input
+          type="text"
+          value={userInput}
+          onChange={(e) => setUserInput(e.target.value)}
+          className="bg-amber-300 outline-0 rounded-3xl p-2"
+        />
+
         {navLinks.map((link) => {
           const isActive =
             pathname === link.href ||
